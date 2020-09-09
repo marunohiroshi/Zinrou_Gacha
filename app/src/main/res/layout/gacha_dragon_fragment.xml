@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:id="@+id/container">
+
+        <ImageView
+            android:id="@+id/gacha_dragon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-20dp"
+            android:layout_marginTop="-20dp"
+            android:layout_marginRight="-20dp"
+            android:layout_marginBottom="-20dp"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/gacha_button"
+            android:layout_width="157dp"
+            android:layout_height="177dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:alpha="0"
+            android:clickable="true"
+            android:focusable="true"
+            android:visibility="visible" />
+    </FrameLayout>
+</LinearLayout>
+

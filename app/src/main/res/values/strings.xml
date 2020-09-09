@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">人狼ガチャ</string>
+
+    <string-array name="card_position_list">
+        <!--市民陣営-->
+        <item>市民</item>
+        <item>占い師</item>
+        <item>狩人</item>
+        <item>双子</item>
+        <item>猫又</item>
+        <item>怪盗</item>
+        <item>パン屋</item>
+        <item>市長</item>
+        <item>狼憑き</item>
+        <item>罠師</item>
+        <item>逃亡者</item>
+        <item>賢者</item>
+        <item>赤ずきん</item>
+        <item>貴族</item>
+        <item>奴隷</item>
+        <item>呪われし者</item>
+        <item>独裁者</item>
+        <item>聖職者</item>
+        <item>暗殺者</item>
+        <item>わら人形</item>
+        <item>占い師の弟子</item>
+        <item>女王</item>
+        <item>巫女</item>
+        <item>魔女</item>
+        <item>番犬</item>
+        <item>長老</item>
+        <item>生霊</item>
+        <item>医者</item>
+        <item>人狼キラー</item>
+        <item>偽占い師</item>
+        <item>病人</item>
+        <item>プリンセス</item>
+        <item>新聞配達</item>
+        <item>ギャンブラー</item>
+        <item>名探偵</item>
+        <item>饒舌な狩人</item>
+
+        <!--人狼陣営-->
+        <item>人狼</item>
+        <item>堅狼</item>
+        <item>強欲な人狼</item>
+        <item>饒舌な人狼</item>
+        <item>大狼</item>
+        <item>蘇る人狼</item>
+        <item>能ある人狼</item>
+        <item>狂人</item>
+        <item>狂言者</item>
+        <item>ささやく狂人</item>
+        <item>妖術師</item>
+        <item>サイコ</item>
+        <item>狼少年</item>
+        <item>黒猫</item>
+        <item>反逆の狂人</item>
+        <item>一途な人狼</item>
+        <item>一匹狼</item>
+
+        <!--その他陣営-->
+        <item>殉教者</item>
+        <item>てるてる坊主</item>
+        <item>ぶた男</item>
+        <item>コウモリ男</item>
+        <item>天邪鬼</item>
+        <item>純愛者</item>
+        <item>復讐者</item>
+        <item>酔っ払い</item>
+        <item>疫病神</item>
+
+        <!--妖狐陣営-->
+        <item>妖狐</item>
+        <item>小狐</item>
+        <item>背信者</item>
+        <item>背徳者</item>
+
+        <!--サンタ陣営-->
+        <item>サンタ</item>
+        <item>赤鼻のトナカイ</item>
+
+        <!--恋人陣営-->
+        <item>恋人</item>
+        <item>悪女</item>
+        <item>キューピッド</item>
+
+        <!--ゾンビ陣営-->
+        <item>ゾンビ</item>
+        <item>ゾンビマニア</item>
+
+    </string-array>
+    <string name="card_back_design">R.drawable.%s</string>
+</resources>

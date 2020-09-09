@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/collection_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/gacha_collection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="2.5"
+            android:scaleY="2"
+            android:src="@drawable/gacha_collection" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="70dp"
+            android:gravity="center"
+            android:text="役職一覧"
+            android:textColor="@color/White"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/zinnrou_card_collection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="2"
+            android:scaleY="1.5"
+            android:src="@drawable/zinrou_collection" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="70dp"
+            android:gravity="center"
+            android:text="全役職一覧"
+            android:textColor="@color/White"
+            android:textSize="40sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/card_design_collection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1.4"
+            android:scaleY="1.2"
+            android:src="@drawable/card_design_collection" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:gravity="center"
+            android:text="カード裏面デザイン"
+            android:textColor="@color/White"
+            android:textSize="35sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/gachadora_collection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1.8"
+            android:scaleY="1"
+            android:src="@drawable/gachadra_collection" />
+
+    </FrameLayout>
+</LinearLayout>

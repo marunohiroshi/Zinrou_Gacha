@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_front_back_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Black"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+        <ImageView
+            android:id="@+id/card_open_animation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleY="2"/>
+
+        <ImageView
+            android:id="@+id/card_open_animation2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/imageViewFront"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:contentDescription="@string/app_name" />
+</FrameLayout>
